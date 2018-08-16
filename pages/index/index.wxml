@@ -1,13 +1,20 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="g-list">
+    <view class="m-bit after">
+      <text class="s-title">男生会主动搭讪一个长的很高并且长的很好看的女生吗?</text>
+      <view class="s-details after">
+        <view class="words">一个人: 萨达发卡视角两地分居拉丝机来电管家啦撒大口径法拉盛激烈的咖啡机沙龙课过来撒决定了工具栏上的橄榄树都改了啥老大哥律师的了工具栏上的管理技术拉到就够啦,阿斯利康大驾光临撒娇的高房价拉伸个</view>
+        <view class="img">
+          <image src="/images/citimg.png"></image>
+        </view>
+      </view>
+      <view class="s-comment after">
+        <rich-text type="span">
+          111赞同 . 39评论
+        </rich-text>
+        <image mode="center" class="btn-icon" src="/images/nodot.png"></image>
+      </view>
+    </view>
   </view>
 </view>
