@@ -1,12 +1,18 @@
 /**index.wxss**/
 .m-bit{
   padding:30rpx 20rpx;
+  background: #fff;
+  margin-bottom:15rpx;
+}
+.m-bit:last-child{
+  margin: 0;
 }
 .m-bit .s-title {
   color:#121212;
   font-weight:bold;
   font-size:34rpx;
   line-height: 1.3;
+
 }
 .m-bit .s-details{
   margin-top:36rpx;
@@ -20,6 +26,13 @@
   margin-top:15rpx;
   color:#474747;
 }
+
+.m-bit .s-details-video .words,.m-bit .s-details-no .words{
+  width:100%;
+}
+.m-bit .s-details-no{
+  margin-top:10rpx;
+}
 .m-bit .img{
  width:210rpx;
  height:155rpx;
@@ -29,6 +42,18 @@
   width:100%;
   height:100%;
 }
+
+.m-bit .video{
+  width:100%;
+  height:420rpx;
+  margin-bottom:20rpx;
+}
+
+.m-bit .video video{
+  width:100%;
+  height:100%;
+}
+
 .s-comment{
   margin-top:20px;
 }
@@ -40,5 +65,6 @@
 .s-comment  .btn-icon{
   float:right;
   width: 40rpx;
-  height:16rpx;
+  height:40rpx;
+  margin-right:5rpx;
 }

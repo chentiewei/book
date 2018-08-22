@@ -1,10 +1,11 @@
 {
   "pages": [
+    "pages/user/user",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/qcode/qcode",
-    "pages/message/message",
-    "pages/user/user"
+    "pages/commit/commit",
+    "pages/message/message"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -24,7 +25,7 @@
         "selectedIconPath": "/images/homeC.png"
       },
       {
-        "pagePath": "pages/qcode/qcode",
+        "pagePath": "pages/commit/commit",
         "text": "二维码",
         "iconPath": "/images/qcode.png",
         "selectedIconPath": "/images/qcodeC.png"

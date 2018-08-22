@@ -1,1 +1,8 @@
-/* pages/tabar/user/user.wxss */
+.g-user{
+  width:100%;
+  height:195rpx;
+  background: -webkit-linear-gradient(left, #363636,#3a3d42,#425164,#3e4750, #353439); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #363636, #3a3d42,#425164,#3e4750,#353439); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #363636,#3a3d42,#425164,#3e4750, #353439); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #363636 ,#3a3d42, #425164,#3e4750,#353439); /* 标准的语法 */
+}

@@ -1,2 +1,6 @@
-<!--pages/tabar/user/user.wxml-->
-<text>pages/tabar/user/user.wxml</text>
+<view class="container">
+  <view class="g-user">
+    <image src=""></image>
+    <view></view>
+  </view>
+</view>

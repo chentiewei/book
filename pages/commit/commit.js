@@ -1,4 +1,4 @@
-// pages/tabar/qcode/qcode.js
+// pages/commit/commit.js
 Page({
 
   /**
