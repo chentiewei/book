@@ -19,7 +19,7 @@
 }
 .m-bit .s-details .words{
   width:460rpx;
-  height:115rpx;
+  height:125rpx;
   overflow: hidden;
   font-size:30rpx;
   float:left;

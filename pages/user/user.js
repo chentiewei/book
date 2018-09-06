@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    userImg: '/images/users.png',
+    nickName:'未登录',
+    showButton:true
   },
 
   /**
@@ -62,5 +64,13 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  onGotUserInfo: function (e) {
+    console.log(e.detail.userInfo)
+    this.setData({
+      showButton: false, 
+      userImg: e.detail.userInfo.avatarUrl,
+      nickName: e.detail.userInfo.nickName
+    })
   }
 })
