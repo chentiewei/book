@@ -6,7 +6,7 @@
         <image class="yesmsg" wx:if="{{!showButton}}" src="{{userImg}}"></image>
         <text wx:if="{{!showButton}}">{{nickName}}</text>
       </view>
-      <button wx:if="{{showButton}}" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">点击登录</button>
+      <button wx:if="{{showButton}}" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">点击登录 测试</button>
     </view>
   </view>
 </view>
