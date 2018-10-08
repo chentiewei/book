@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="g-list">
+    <view class="m-bit after">
+      <text class="s-title">男生会主动搭讪一个长的很高并且长的很好看的女生吗?</text>
+      <view class="s-details after">
+        <view class="words">一个人: 萨达发卡视角两地分居拉丝机来电管家啦撒大口径法拉盛激烈的咖啡机沙龙课过来撒决定了工具栏上的橄榄树都改了啥老大哥律师的了工具栏上的管理技术拉到就够啦,阿斯利康大驾光临撒娇的高房价拉伸个</view>
+        <view class="img">
+          <image src="/images/citimg.png"></image>
+        </view>
+      </view>
+      <view class="s-comment after">
+        <rich-text type="span">
+          111赞同 . 39评论
+        </rich-text>
+        <image class="btn-icon" src="/images/nodot.png"></image>
+      </view>
+    </view>
+    <view class="m-bit after">
+      <text class="s-title">男生会主动搭讪一个长的很高并且长的很好看的女生吗?</text>
+      <view class="s-details s-details-video after">
+        <view class="video">
+          <video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+        </view>
+        <view class="words">一个人: 萨达发卡视角两地分居拉丝机来电管家啦撒大口径法拉盛激烈的咖啡机沙龙课过来撒决定了工具栏上的橄榄树都改了啥老大哥律师的了工具栏上的管理技术拉到就够啦,阿斯利康大驾光临撒娇的高房价拉伸个</view>
+        
+      </view>
+      <view class="s-comment after">
+        <rich-text type="span">
+          111赞同 . 39评论
+        </rich-text>
+        <image class="btn-icon" src="/images/nodot.png"></image>
+      </view>
+    </view>
+    <view class="m-bit after">
+      <text class="s-title">男生会主动搭讪一个长的很高并且长的很好看的女生吗?</text>
+      <view class="s-details s-details-no after">
+        <view class="words">一个人: 萨达发卡视角两地分居拉丝机来电管家啦撒大口径法拉盛激烈的咖啡机沙龙课过来撒决定了工具栏上的橄榄树都改了啥老大哥律师的了工具栏上的管理技术拉到就够啦,阿斯利康大驾光临撒娇的高房价拉伸个</view>
+        
+      </view>
+      <view class="s-comment after">
+        <rich-text type="span">
+          111赞同 . 39评论
+        </rich-text>
+        <image class="btn-icon" src="/images/nodot.png"></image>
+      </view>
+    </view>
+  </view>
+</view>

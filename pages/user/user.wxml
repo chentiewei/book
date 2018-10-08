@@ -9,4 +9,10 @@
       <button wx:if="{{showButton}}" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">点击登录</button>
     </view>
   </view>
+  <view class="g-nav">
+      <view class="m-creation">我的创作</view>
+      <view class="m-follow">关注</view>
+      <view class="m-behavior">行为</view>
+      <view class="m-records">浏览记录</view>
+  </view>
 </view>

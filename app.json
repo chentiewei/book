@@ -3,6 +3,7 @@
     "pages/user/user",
     "pages/index/index",
     "pages/logs/logs",
+    "pages/circle/circle",
     "pages/commit/commit",
     "pages/message/message"
     
@@ -20,13 +21,13 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页",
+        "text": "我的日记",
         "iconPath": "/images/home.png",
         "selectedIconPath": "/images/homeC.png"
       },
       {
-        "pagePath": "pages/commit/commit",
-        "text": "二维码",
+        "pagePath": "pages/circle/circle",
+        "text": "日记圈",
         "iconPath": "/images/qcode.png",
         "selectedIconPath": "/images/qcodeC.png"
       },
