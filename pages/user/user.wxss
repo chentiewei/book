@@ -41,3 +41,12 @@
   line-height: 45rpx;
   margin-top:15rpx;
 }
+.g-nav{
+  background: #fff;
+  width:100%;
+  display: flex;
+}
+.g-nav>view{
+  flex:1;
+  text-align: center;
+}

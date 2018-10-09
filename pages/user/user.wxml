@@ -10,9 +10,9 @@
     </view>
   </view>
   <view class="g-nav">
-      <view class="m-creation">我的创作</view>
-      <view class="m-follow">关注</view>
-      <view class="m-behavior">行为</view>
-      <view class="m-records">浏览记录</view>
+      <view class="m-creation" hover-start-time="50">我的创作</view>
+      <view class="m-follow" hover-start-time="50">关注</view>
+      <view class="m-behavior" hover-start-time="50">行为</view>
+      <view class="m-records" hover-start-time="50">浏览记录</view>
   </view>
 </view>
