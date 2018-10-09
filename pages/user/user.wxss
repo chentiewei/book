@@ -45,8 +45,17 @@
   background: #fff;
   width:100%;
   display: flex;
+  padding: 10rpx 10rpx;
 }
 .g-nav>view{
   flex:1;
   text-align: center;
+  font-size:26rpx;
+  border-right:1rpx solid #eee;
+}
+.g-nav>view:last-child{
+  border : 0;
+}
+.g-nav>view .num{
+  font-size:35rpx;
 }
