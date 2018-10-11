@@ -45,7 +45,8 @@
   background: #fff;
   width:100%;
   display: flex;
-  padding: 10rpx 10rpx;
+  padding: 30rpx 10rpx;
+  border-bottom:15rpx solid #eee;
 }
 .g-nav>view{
   flex:1;
@@ -58,4 +59,22 @@
 }
 .g-nav>view .num{
   font-size:35rpx;
+  font-weight:500;
+}
+.g-link{
+  width:100%;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding:30rpx 0;
+  text-align: center;
+}
+.g-link .m-a{
+  width:25%;
+  height:100rpx;
+}
+.g-link .m-a image{
+  width:60rpx;
+  height:60rpx;
+  border-radius: 15rpx;
 }

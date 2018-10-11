@@ -27,4 +27,24 @@
         <view>浏览记录</view>
       </view>
   </view>
+  <view class="g-link">
+      <view class="m-a">
+        <image class="nomsg" src="/images/userMsg.png"></image>
+      </view>
+      <view class="m-a">
+        <image class="nomsg" src="/images/userMsg.png"></image>
+      </view>
+      <view class="m-a">
+        <image class="nomsg" src="/images/userMsg.png"></image>
+      </view>
+      <view class="m-a">
+        <image class="nomsg" src="/images/userMsg.png"></image>
+      </view>
+      <view class="m-a">
+        <image class="nomsg" src="/images/userMsg.png"></image>
+      </view>
+      <view class="m-a">
+        <image class="nomsg" src="/images/userMsg.png"></image>
+      </view>
+  </view>
 </view>
