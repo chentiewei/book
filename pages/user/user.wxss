@@ -66,15 +66,19 @@
   background: #fff;
   display: flex;
   flex-wrap: wrap;
-  padding:30rpx 0;
+  padding-top:30rpx;
   text-align: center;
 }
 .g-link .m-a{
   width:25%;
   height:100rpx;
+  margin-bottom:30rpx;
 }
 .g-link .m-a image{
   width:60rpx;
   height:60rpx;
   border-radius: 15rpx;
+}
+.g-link .m-a view{
+  font-size: 20rpx;
 }
