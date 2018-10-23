@@ -1,12 +1,11 @@
 {
   "pages": [
+    "pages/message/message",
     "pages/user/user",
     "pages/index/index",
     "pages/logs/logs",
     "pages/circle/circle",
-    "pages/commit/commit",
-    "pages/message/message"
-    
+    "pages/commit/commit"
   ],
   "window": {
     "backgroundTextStyle": "light",

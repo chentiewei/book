@@ -1,2 +1,24 @@
-<!--pages/tabar/message/message.wxml-->
-<text>pages/tabar/message/message.wxml</text>
+<view class="container">
+  <view class="g-link">
+    <view class="m-a">
+      <image class="nomsg" src="/images/userMsg.png"></image>
+      <view>粉丝</view>
+    </view>
+    <view class="m-a">
+      <image class="nomsg" src="/images/userMsg.png"></image>
+      <view>赞</view>
+    </view>
+    <view class="m-a">
+      <image class="nomsg" src="/images/userMsg.png"></image>
+      <view>@我的</view>
+    </view>
+    <view class="m-a">
+      <image class="nomsg" src="/images/userMsg.png"></image>
+      <view>评论</view>
+    </view>
+  </view>
+  <view class="g-msgNav">
+    <view>系统通知</view>
+    <view>留言回复</view>
+  </view>
+</view>
