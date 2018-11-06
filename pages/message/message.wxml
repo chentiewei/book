@@ -17,8 +17,29 @@
       <view>评论</view>
     </view>
   </view>
-  <view class="g-msgNav">
-    <view>系统通知</view>
-    <view>留言回复</view>
+  <view class="g-border"></view>
+  <view class="g-msgNav after">
+    <view class="m-cell">
+      <image class="nomsg" src="/images/userMsg.png"></image>
+      <view class="s-grid">
+        <view class="stext">
+          <text>系统通知</text>
+          <text class="date">2016-03-08</text>
+        </view>
+        <view class="smsg">吃喝玩乐打卡狂欢</view>
+        <view class="borderBox"></view>
+      </view>
+    </view>
+    <view class="m-cell">
+      <image class="nomsg" src="/images/userMsg.png"></image>
+      <view class="s-grid">
+        <view class="stext">
+          <text>留言回复</text>
+          <text class="date">2016-03-08</text>
+        </view>
+        <view class="smsg">吃喝玩乐打卡狂欢</view>
+        <view class="borderBox"></view>
+      </view>
+    </view>
   </view>
 </view>

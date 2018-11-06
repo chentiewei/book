@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/message/message",
     "pages/user/user",
-    "pages/index/index",
     "pages/logs/logs",
     "pages/circle/circle",
-    "pages/commit/commit"
+    "pages/commit/commit",
+    "pages/myDetails/myDetails"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,6 +28,12 @@
       {
         "pagePath": "pages/circle/circle",
         "text": "日记圈",
+        "iconPath": "/images/qcode.png",
+        "selectedIconPath": "/images/qcodeC.png"
+      },
+      {
+        "pagePath": "pages/commit/commit",
+        "text": "抒写故事",
         "iconPath": "/images/qcode.png",
         "selectedIconPath": "/images/qcodeC.png"
       },

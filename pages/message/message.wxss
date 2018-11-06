@@ -19,3 +19,51 @@
 .g-link .m-a view{
   font-size: 20rpx;
 }
+.g-border{
+  width: 80%;
+  background: #eee;
+  height: 5rpx;
+}
+.g-msgNav{
+  width: 100%;
+  background:#fff;
+}
+.g-msgNav .m-cell{
+  padding: 10rpx 25rpx;
+}
+.g-msgNav .m-cell view{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+.g-msgNav .m-cell image{
+  width:105rpx;
+  height:105rpx;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.g-msgNav .m-cell .s-grid{
+  width: 80%;
+  position: relative;
+}
+.g-msgNav .m-cell .s-grid .stext{
+  font-size:26rpx;
+  display: block;
+}
+.g-msgNav .m-cell .s-grid .stext .date{
+  float: right;
+}
+.g-msgNav .m-cell .s-grid .smsg{
+  color: #696c7b;
+  font-size: 19rpx;
+}
+.g-msgNav .m-cell .borderBox{
+  border-radius: 50%;
+  width: 18rpx;
+  height: 18rpx;
+  background: #fbc00a;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
