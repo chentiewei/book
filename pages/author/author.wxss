@@ -1,0 +1,16 @@
+.g-author{
+  margin-top:120rpx;
+}
+.g-author text{
+  color: #169fe6;
+  font-size: 60rpx;
+}
+.g-author button{
+  background: #169fe6;
+  color: #fff;
+  width: 400rpx;
+  margin-top: 500rpx;
+}
+.g-author button.doit{
+  background: #1087c4;
+}

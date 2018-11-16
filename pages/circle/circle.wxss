@@ -3,6 +3,7 @@
   padding:30rpx 20rpx;
   background: #fff;
   margin-bottom:15rpx;
+  border-bottom:1px solid #eee;
 }
 .m-bit:last-child{
   margin: 0;

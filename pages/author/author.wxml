@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="g-author">
+    <text>欢迎使用日记转转</text>
+    <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" hover-class="doit">点击登录</button>
+  </view>
+</view>

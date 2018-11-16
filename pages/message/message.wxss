@@ -37,14 +37,14 @@
   margin-left: 10rpx;
 }
 .g-msgNav .m-cell image{
-  width:105rpx;
-  height:105rpx;
+  width:80rpx;
+  height:80rpx;
   border-radius: 50%;
   display: inline-block;
   vertical-align: middle;
 }
 .g-msgNav .m-cell .s-grid{
-  width: 80%;
+  width: calc(100% - 90rpx);
   position: relative;
 }
 .g-msgNav .m-cell .s-grid .stext{
