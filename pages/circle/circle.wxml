@@ -13,7 +13,7 @@
         <rich-text type="span">
           111赞同 . 39评论
         </rich-text>
-        <image class="btn-icon" src="/images/nodot.png"></image>
+        <image bindtap="tapName" class="btn-icon" src="/images/nodot.png"></image>
       </view>
     </navigator>
     <navigator url="../myDetails/myDetails" class="m-bit after">
